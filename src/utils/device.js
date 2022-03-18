@@ -143,6 +143,7 @@ function isIOS15 () {
       parseInt(v[3] || 0, 10)
     ];
     _isIOS15 = parsedVersion[0] >= 15;
+    console.log('ios 15', _isIOS15);
   }
   return _isIOS15;
 }
